@@ -1,0 +1,22 @@
+.Draft{
+    margin:auto;
+    text-align:center;
+    width:16%;
+    
+}
+.Draft > p{
+    margin:2px;
+}
+.Draft-stats,.Draft > p{
+    text-align: left;
+}
+.Draft-stats{
+    display:flex;
+    align-items: center;
+}
+.Grey{
+    color: gray;
+}
+.Lengt{
+    display:flex;
+}

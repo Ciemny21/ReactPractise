@@ -1,0 +1,30 @@
+.Layout-box{
+    background-color: white;
+    width:50%;
+    margin: auto;
+    margin-top:30px;
+    padding:30px 20px;
+    gap:10px;
+    line-height: 10px;
+    border-radius: 5px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    
+}
+.Pic-column{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.Pic:nth-child(1)
+{margin-top:40px;}
+.Pic-column:nth-child(2),.Pic-column:nth-child(4)
+{
+    margin-bottom:50px;
+}
+.Pic-column:nth-child(3),.Pic-column:nth-child(5)
+{
+    margin-top:50px;
+}
+
