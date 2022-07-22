@@ -2,10 +2,12 @@
     margin:auto;
     text-align:center;
     width:16%;
+    position:relative;
     
 }
 .Draft > p{
     margin:2px;
+    
 }
 .Draft-stats,.Draft > p{
     text-align: left;
@@ -19,4 +21,13 @@
 }
 .Lengt{
     display:flex;
+}
+.card-badge{
+    position:absolute;
+    top:3px;
+    left:4px;
+    background-color: aliceblue;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight:bold
 }

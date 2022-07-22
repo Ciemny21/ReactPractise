@@ -5,6 +5,7 @@
     rates:6,
     description:"Nauka pływania z Katie Zafers",
     price:136,
+    openspots:0,
 },
 {
     img:"/IMG/wedding-photography.png",
@@ -12,6 +13,7 @@
     rates:30,
     description:"Nauka fotografii ślubnej",
     price:125,
+    openspots:1,
 },
 {
     img:"/IMG/mountain-bike.png",
@@ -19,6 +21,7 @@
     rates:2,
     description:"Grupowa przejażdżka rowerowa",
     price:50,
+    openspots:1,
 }
 ]
 export default Dane;

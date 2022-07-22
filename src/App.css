@@ -1,3 +1,13 @@
 .App {
   text-align: center;
+  width:700px;
+  height:100%;
+  margin:auto;
+  background-color: white;
 }
+.List{
+display:flex;
+gap:20px;
+padding: 20px 20px;
+}
+
