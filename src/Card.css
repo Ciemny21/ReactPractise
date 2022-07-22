@@ -1,33 +1,36 @@
-.Draft{
-    margin:auto;
-    text-align:center;
-    width:16%;
-    position:relative;
+.Element{
+    display:flex;
     
 }
-.Draft > p{
-    margin:2px;
-    
+
+.Element-pics{
+width:200px;
+height:300px;
+border-radius:5px;
+margin-right:10px
 }
-.Draft-stats,.Draft > p{
-    text-align: left;
+.Element-info{
+    text-align:left;
+    padding:10px 20px;
 }
-.Draft-stats{
+.Element-date{
+font-weight: bold;
+}
+.Element-content{
+color:rgb(68, 68, 68)
+}
+.Element-localization{
     display:flex;
     align-items: center;
+    gap:10px;
 }
-.Grey{
-    color: gray;
+.Element-localization-img{
+    width:15px;
+    height:20px;
 }
-.Lengt{
-    display:flex;
+.Element-localization-header{
+    font-weight: bold;
 }
-.card-badge{
-    position:absolute;
-    top:3px;
-    left:4px;
-    background-color: aliceblue;
-    padding: 5px 7px;
-    border-radius: 2px;
-    font-weight:bold
+.Element-localization-url{
+    color: rgb(160, 149, 149);
 }
